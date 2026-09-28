@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+*.key
+
+# Logs
+*.log
+agent_trace.txt
+planner_call.txt
+debug_result.txt
+
+# Evidence / runtime data
+evidence/
+evidence_state/
+*.evidence
+
+# Backups / temporary files
+*.bak
+*.before_*
+*.tmp
+*backup*
+*.backup*
+
+# APK / DEX analysis data
+classes*.dex
+all-dex/
+
+# Python cache
+__pycache__/
